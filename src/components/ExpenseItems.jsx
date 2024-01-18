@@ -28,7 +28,7 @@ import {
         <td>{formatDateToLocaleString(expenses.createdAt)}</td>
         {showBudget &&  <td>
             <Link
-              to={`/budget/${budget.id}`}
+              to={`/react_budgetingApp/budget/${budget.id}`}
               style={{
                 "--accent": budget.color,
               }}

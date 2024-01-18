@@ -54,7 +54,7 @@ export  async function BudgetsAction ({ request})  {
      }
 }
 function BudgetPage() {
-    const {budget , expenses}= useLoaderData()
+    const {budget, expenses}= useLoaderData()
   return (
     <div className="grid-lg"
     style={{

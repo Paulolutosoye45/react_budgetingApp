@@ -17,5 +17,5 @@ export async function LogoutOutAction ()  {
         key : "expenses"
     })
     toast.success("You’ve deleted your account!")
-   return  redirect("/")
+   return  redirect("/react_budgetingApp")
 }

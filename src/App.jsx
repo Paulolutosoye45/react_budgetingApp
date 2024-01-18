@@ -14,7 +14,7 @@ import { deleteBudget } from './actions/DeleteBudgets'
 const  App = ()  => {
   const routes = createBrowserRouter([
     {
-      path: "/",
+      path: "/react_budgetingApp",
       element: <Main />,
       loader: mainloader,
       errorElement: <Error />,
@@ -34,7 +34,7 @@ const  App = ()  => {
           errorElement: <Error />,
         },
         {
-          path: "budget/:id",
+          path: "/react_budgetingApp/budget/:id",
           element: <BudgetPage />,
           loader: budgetLoader,
           action: BudgetsAction,
